@@ -1,0 +1,3 @@
+把cs生成的c#文件转为byte类型，用shellcode.exe输入：
+例子：
+shellcode.exe payload_64.cs
